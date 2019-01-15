@@ -20,9 +20,9 @@ endif
 
 let g:colors_name='plain'
 
-let s:black           = { "gui": "#222222", "cterm": "0"   }
+let s:black           = { "gui": "#000000", "cterm": "0"   }
 let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
-let s:white           = { "gui": "#F1F1F1", "cterm": "15"  }
+let s:white           = { "gui": "#FFFFFF", "cterm": "15"  }
 let s:light_black     = { "gui": "#424242", "cterm": "8"   }
 let s:lighter_black   = { "gui": "#545454", "cterm": "240" }
 let s:subtle_black    = { "gui": "#303030", "cterm": "236" }
@@ -67,9 +67,9 @@ else
   let s:bg               = s:white
   let s:bg_subtle        = s:lighter_gray
   let s:bg_very_subtle   = s:light_gray
-  let s:norm             = s:light_black
-  let s:norm_subtle      = s:lighter_black
-  let s:norm_very_subtle = s:medium_gray
+  let s:norm             = s:black
+  let s:norm_subtle      = s:light_black
+  let s:norm_very_subtle = s:lighter_black
   let s:purple           = s:dark_purple
   let s:cyan             = s:dark_cyan
   let s:green            = s:dark_green
@@ -78,7 +78,7 @@ else
   let s:visual           = s:light_blue
   let s:cursor_line      = s:lightest_gray
   let s:constant         = s:dark_blue
-  let s:comment          = s:light_gray
+  let s:comment          = s:light_black
   let s:selection        = s:light_yellow
   let s:selection_fg     = s:light_black
   let s:ok               = s:light_green
